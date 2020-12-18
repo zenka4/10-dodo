@@ -1,0 +1,71 @@
+.capUp{
+    display: inline-block;
+    width: 100%;
+}
+    .capUp .button{
+        float: right;
+        color:black;
+        background-color: darkgray;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+    }
+    .capUp img{
+        float: left;
+        width: 225px;
+    }
+    .capText{
+        display: inline-block;
+        float: left;
+        padding: 0px 40px;
+    }
+    .capText .text {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .capText .text span {
+        color: darkorange;
+    }
+    .pNumber{
+        display: inline-block;
+        float: left;
+        width: 100px;
+        text-align: left;
+    }
+    .pNumber span{
+        display: inline-block;
+        float: left;
+    }
+    .pNumber a{
+        display: inline-block;
+        float: left;
+    }
+    .capDown{
+        display: inline-block;
+        width: 100%;
+    }
+    .capNav{
+        display: inline-block;
+    }
+    .capNav > a{
+        display: inline-block;
+        padding-right: 15px;
+        padding-top: 10px;
+        color: black;
+        font-weight: bold;
+    }
+    .capDown .button {
+        font-size: 18px;
+        float: right;
+        background-color: darkorange;
+        color: #fff;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
