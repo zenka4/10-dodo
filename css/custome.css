@@ -4,3 +4,16 @@ a{
 footer{
     background-color: gray;
 }
+.carouselBase{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel{
+    display: inline-block;
+    float: left;
+    width: 500%;
+}
+.carousel img{
+    width: 1200px;
+}
