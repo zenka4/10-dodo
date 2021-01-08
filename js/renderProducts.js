@@ -4,7 +4,7 @@ function renderProducts(data) {
     const pizza = data.pizza;
     for (let i = 0; i < pizza.length; i++) {
         let onePizza = pizza[i];
-        HTMLpizza += `  <div class="pizza">
+        HTMLpizza += `  <div class="product">
                         <img src="${onePizza.photo}" alt="">
                         <h3>${onePizza.name}</h3>
                         <p>${onePizza.ingredients}</p>
@@ -20,7 +20,7 @@ function renderProducts(data) {
     const snacks = data.snacks;
     for (let i = 0; i < snacks.length; i++) {
         let oneSnack = snacks[i];
-        HTMLsnacks += `  <div class="snack">
+        HTMLsnacks += `  <div class="product">
                             <img src="${oneSnack.photo}" alt="">
                             <h3>${oneSnack.name}</h3>
                             <p>${oneSnack.ingredients}</p>
@@ -36,7 +36,7 @@ function renderProducts(data) {
     const desserts = data.desserts;
     for (let i = 0; i < desserts.length; i++) {
         let oneDessert = desserts[i];
-        HTMLdesserts += `  <div class="snack">
+        HTMLdesserts += `  <div class="product">
                             <img src="${oneDessert.photo}" alt="">
                             <h3>${oneDessert.name}</h3>
                             <p>${oneDessert.ingredients}</p>
@@ -52,7 +52,7 @@ function renderProducts(data) {
     const drinks = data.drinks;
     for (let i = 0; i < drinks.length; i++) {
         let oneDrink = drinks[i];
-        HTMLdrinks += `  <div class="snack">
+        HTMLdrinks += `  <div class="product">
                             <img src="${oneDrink.photo}" alt="">
                             <h3>${oneDrink.name}</h3>
                             <p>${oneDrink.size}</p>

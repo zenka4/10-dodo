@@ -8,8 +8,15 @@ body {
     /* atsistumimas nuo virsaus ir apacios  */
     padding: 20px 0px; 
 }
+.container > .rowA{
+    grid-column: 2/3;
+}
     .container > .row{
+        display: grid;
         grid-column: 2/3;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit,minmax(250px, auto));
+        
     }
 @media(max-width: 1300px){ 
     .container{

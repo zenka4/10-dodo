@@ -17,3 +17,11 @@ footer{
 .carousel img{
     width: 1200px;
 }
+.row  img{
+    width: 100%;
+}
+.product{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template:auto 1fr minmax(40px, auto) / 1fr;
+}

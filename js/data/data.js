@@ -4,61 +4,61 @@ const products = {
             name: 'Christmas Pizza',
             ingredients: 'Kalakutiena, spanguolių padažas, bruknės, šoninė, raudonieji svogūnai, mocarelos sūris, česnakinis padažas',
             price: 8.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Carbonara',
             ingredients: 'Sūrio padažas, granuliuoti česnakai, mocarelos sūris, raudonieji svogūnai, šoninė, vyšniniai pomidorai, itališkos žolelės, parmezanas, čederio sūris',
             price: 8.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Cheesy Chicken',
             ingredients: 'Pomidorai, mocarelos sūris, vištiena, sūrio padažas',
             price: 7.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Cheese',
             ingredients: 'Mocarelos sūris, picų padažas, fetos suгis, itališkos žolelės',
             price: 6.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'The Meats',
             ingredients: 'Medžiotojų dešrelės, mocarelos sūris, šoninė, kumpis, jautiena, picų padažas',
             price: 7.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Christmas Pizza',
             ingredients: 'Kalakutiena, spanguolių padažas, bruknės, šoninė, raudonieji svogūnai, mocarelos sūris, česnakinis padažas',
             price: 8.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Carbonara',
             ingredients: 'Sūrio padažas, granuliuoti česnakai, mocarelos sūris, raudonieji svogūnai, šoninė, vyšniniai pomidorai, itališkos žolelės, parmezanas, čederio sūris',
             price: 8.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Cheesy Chicken',
             ingredients: 'Pomidorai, mocarelos sūris, vištiena, sūrio padažas',
             price: 7.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'Cheese',
             ingredients: 'Mocarelos sūris, picų padažas, fetos suгis, itališkos žolelės',
             price: 6.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
         {
             name: 'The Meats',
             ingredients: 'Medžiotojų dešrelės, mocarelos sūris, šoninė, kumpis, jautiena, picų padažas',
             price: 7.75,
-            photo: '#'
+            photo: './img/christmas.jpg'
         },
 
     ],
